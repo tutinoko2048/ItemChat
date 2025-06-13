@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "itemchat",
+  "version": "${version}",
+  "name": "ItemChat",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/itemchat/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.github.tutinoko2048.itemchat.client.ItemChatClientClient"
+    ],
+    "main": [
+      "com.github.tutinoko2048.itemchat.ItemChatClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
