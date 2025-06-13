@@ -11,10 +11,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.github.tutinoko2048.itemchat.client.ItemChatClientClient"
-    ],
-    "main": [
-      "com.github.tutinoko2048.itemchat.ItemChatClient"
+      "com.github.tutinoko2048.itemchat.client.ItemChatClient"
     ]
   },
   "depends": {
